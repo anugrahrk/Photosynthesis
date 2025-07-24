@@ -1,0 +1,357 @@
+<html>
+    <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <style>
+            body {
+  overflow-x: hidden;
+}
+
+
+          * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+            
+                                .montserrat {
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400; /* or 600, 700, etc. */
+                font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sansation-light-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.sansation-regular-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sansation-bold-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+        .button:hover{
+                background-color: white; color: black;
+                cursor: pointer;
+        }
+        .signup{
+            width: 112px;
+             height: 38px;
+              border: 1px solid black;
+                border-radius:20px ;
+            background-color: white;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .signup:hover{
+            background-color: #3F7D58;
+            color: white;
+            cursor: pointer;
+            border: 0;
+        }
+        .Get-started{
+          height: 52px;
+          width: 147px;
+          position: relative;
+          top: 256px;
+          left: 647px;
+          border-radius: 20px;
+          padding-top: 16px;
+          padding-left: 20px;
+          padding-bottom: 16px;
+          padding-right: 20px;
+          gap: 10px;
+          background-color: #262A2D;
+          color: white;
+          border: 0;
+          cursor: pointer;
+          transition: background-color 0.3s ease, color 0.3s ease,
+
+        }
+        .Get-started:hover{
+          background-color: #3F7D58;
+          border: 0;
+        }
+        .arrow-btn:hover .arrow{
+          transform: rotate(33deg);
+
+        }
+        .arrow{
+          transition: all 0.3s ease;
+        }
+        input:focus{
+          outline: none;
+        }
+        .send-btn{
+           position: relative;
+            top: 145px;
+             left: 32px;
+              width: 543px;
+               height: 50px;
+                border: 0;
+                 border-radius: 20px;
+                  padding-left: 20px;
+                   padding-right: 20px;
+                    padding-top: 16px;
+                     padding-bottom: 16px;
+                      background-color: #242424;
+                       text-align: center;
+                        color: white;
+                         font-size: 16px;
+                          line-height: 100%;
+                           letter-spacing: -0.03em;
+                           cursor: pointer;
+                           transition: background-color 0.3s ease;
+        }
+        .send-btn:hover{
+                      background-color: #3F7D58;
+
+        }
+
+    </style>
+    </head>
+    
+    <body>
+        <div style="display: flex; justify-content: space-evenly; position: relative; top: 40px; left: 60.69px;">
+            <h3 style="width: 183.13px; height: 28.27px; padding-bottom: 3px ;"><img src="./assets/Frame.svg" alt=""></h3>
+            <div class="sansation-regular"  style=" border-radius: 24px; font-size: 16px; width: 498px;  height: 40px; background-color: #262A2D; display: flex ; justify-content: space-between; padding-top: 1px; color: white;" >
+                <span style="width: 65px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;   background-color: white; color: black;">Home</span>
+                <span class="button" style="width: 89px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;  transition: background-color 0.3s ease, color 0.3s ease, ">About Us</span>
+                <span class="button"  style="width: 81px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;  transition: background-color 0.3s ease, color 0.3s ease, ">Reviews</span>
+                <span class="button" style="width: 85px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;  transition: background-color 0.3s ease, color 0.3s ease, ">Products</span>
+                <span class="button" style="width: 53px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center; padding-right: 10px; transition: background-color 0.3s ease, color 0.3s ease, ">Blog</span>
+
+            </div>
+            <div class="sansation-regular">
+                <button class="login" style="border: 0px; background:none; width: 66px; height: 38px; font-size: 16px" >Log in</button>
+                <button class="signup" >Sign up Free</button>
+            </div>
+        </div>
+          <div style="width: 221px; position: relative; top: 160px; left: 609.5px; height: 24px; border: 0; border-radius: 24px; background-color: #EEEEEE; display: flex ; justify-content: space-evenly; align-items: center; gap: 16px; padding-left: 24px; padding-right: 24px; padding-top: 4px; padding-bottom: 4px;"> <div style="width: 13px; height: 13px; background-color: #3F7D58; border-radius: 50%;"></div> <div class="sansation-regular" style="font-size: 14px;">Top Agro Researcher’s</div></div>
+        <div style=" display: flex; justify-content: space-between; ">
+          <div class="sansation-bold" style="position: relative; letter-spacing:-0.03em;  top: 208px; left: 264px; position: relative ; justify-content: center; text-align: center;  width: 913px; height: 166px; font-size: 74px;">
+          Cultivating Next-Gen Growth in Agriculture
+          </div>
+        </div>
+            <p class="open-sans" style="width: 417px; height: 54px; position: relative; top: 230px; left: 514px; font-size:20px ; text-align: center; color: #636363;">Empowering farmers with smarter tools, bigger yields, and greener solutions</p>
+            <button class="Get-started">Get Started <img class="arrow" src="assets/Vector.svg" alt=""></button>
+      <img class="" style="position: relative; top: 300px; display: block;  height: 542px;
+      width: 100vw; object-fit: cover;" src="assets/hero.png" alt="">
+<div class="open-sans" style="position: relative; letter-spacing: -0.03em; font-size: 20px; top: 400px; display: flex; ">
+  <p style="width: 44px; height: 27px; position: relative; left: 80px;">2025</p>
+  <p style="width:630px ; height:135px ; position: relative; left:650px ; color: #636363;">At <span style="color: #3F7D58;">BioSynthesis,</span> we’re growing a greener, smarter future for <br>
+     agriculture. With innovative tools and sustainable solutions, we help <br>
+      farmers boost yields, cut waste, and protect the planet. Together, <br>
+       we’re cultivating healthier crops, stronger communities, and a brighter <br>
+        tomorrow.</p>
+</div> 
+<div style="width: 100em; height: auto; position: relative; top:580px ; display: flex;">
+          <div style=" position: relative; width:250px ; height: 580px ;">
+            <img style="width: 380px; height:480px ; position: relative; left: -128px; border-radius: 20px; object-fit: cover; " src="assets/left.jpg" alt=""></img>
+            <div style="padding-top: 20px;">
+                <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; width: 122px; position: relative; left: 125px; height: 27px; color:#636363;">Organic Farm</p>
+                <div style="display: flex; justify-content: center; position: relative ; left: 20px; gap: 30px; padding-top: 40px;">
+                  <div style="height: 50px; width: 50px; border-radius:40px ; border: 2px solid black; background-color: white; color: black; display: flex; justify-content: center; align-items: center;"><img src="assets/lessthan.png" alt=""></div>
+                  <div style="height: 50px; width: 50px; border-radius:40px ; border: none; background-color: black; color: white; display: flex; justify-content: center; align-items: center;"><img src="assets/greaterthan.png" alt=""></div>
+                </div>
+            </div>
+          </div>
+          <div style=" position: relative; top: 10px ; left: 30px; width:400px ; ">
+              <div style="display: flex; justify-content: space-between;">
+                      <p class="sansation-regular" style="width: 227px; height: 72px; font-size: 32px; letter-spacing: -0.03em;">Get <br> Started 
+                        Now</p>
+                      <div class="arrow-btn" style="position: relative; cursor: pointer; left: -20px; background-color: #3F7D58; border: 0; display: flex; justify-content: center; align-items: center; border-radius: 40px; width: 50px; height: 50px;"><img class="arrow" src="assets/NW.svg" alt=""></div>
+              </div>
+              <img src="assets/soil.jpg" style="width: 380px; height:480px ; position: relative; top: 80px; border-radius: 20px; object-fit: cover;" alt="">
+              <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; top: 100px;   width: 152px; position: relative; left: 225px; height: 27px; color:#636363;">Organic Fertilizer
+
+              </p>
+          </div>
+          <div style=" position: relative; top: 10px ; left: 30px; width:400px ; ">
+            <img src="assets/hillplanataion.jpg" style="width: 380px; height:480px ; position: relative; top: -20px; border-radius: 20px; object-fit: cover;" alt="">
+            <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; top: 0px;   width: 190px; position: relative; left: 185px; height: 27px; color:#636363;">Technology Irrigation
+
+          </div>
+          <div style=" position: relative; top: 10px ; left: 30px; width:400px ; ">
+            <img src="assets/agriculture.jpg" style="width: 380px; height:480px ; position: relative; top: 50px; border-radius: 20px; object-fit: cover;" alt="">
+            <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; top: 70px;   width: 207px; position: relative; left: 100px; height: 27px; color:#636363;">Agricultural Monitoring
+
+          </div>
+</div>
+
+<div style="height:711px ; position: relative; top: 820px;">
+  <img src="assets/misty.jpg" style="position: absolute; width:100em ; height:711px ; object-fit: cover;" alt="">
+  <p class="sansation-regular" style="position: relative; top: 80px; left: 80px; width: 545px; height: 126px; line-height: 100%; letter-spacing: -0.03em; font-size: 56px; color:white;">Transform Your Farm. <br>
+     Empower Your Future.</p>
+  <div class="arrow-btn" style="position: absolute; bottom: 80px; right: 80px; cursor: pointer; background-color: #3F7D58; border: 0; display: flex; justify-content: center; align-items: center; border-radius: 200px; width: 100px; height: 100px;"><img class="arrow" style="width: 40px; height: 40px;" src="assets/NW.svg" alt=""></div>
+
+</div>
+<div style="position: relative; top: 950px; display: flex; justify-content: center;">
+  <p class="sansation-regular" style="width: 559px; position: relative; left: -30px; height: 126px; font-size:56px; line-height: 100%; letter-spacing: -0.03em;">The Green Growth Hub: <br>
+     Innovation & Earthwise</p>
+  <p class="open-sans" style="width: 630px;  position: relative; left: 50px; height: 180px; font-size:20px; line-height: 30px; letter-spacing: -0.03em; color: #636363;">Insights, tips, and stories from the world of sustainable farming and <br>
+     innovative agriculture — offering expert advice, real-world success <br>
+      stories, and the latest trends to help farmers embrace smarter, eco- <br>
+      friendly practices. From cutting-edge technology to time-tested <br>
+       solutions, we’re here to inspire and guide you on the journey toward a <br>
+        more sustainable, productive future.</p>
+</div>
+<div style="position: relative; top: 1070px; display: flex; gap: 20px; left: 65px;">
+  <div>
+    <img style="width: 345px; height: 455px; border-radius:20px; border: 0; object-fit: cover;" src="assets/wateringcrop.jpg" alt="">
+    <p class="open-sans" style="width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px;  ">Farming Precision</p>
+    <p class="open-sans" style="color: #636363; width: 345px; height: 81px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;">Optimize your fields, reduce waste, <br>
+       and boost yields with smart, precise <br>
+        farming solutions.</p>
+        <div style="display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 35px; letter-spacing: -0.02em; text-align: center; ">
+    <a class="sansation-bold" style="color: #3F7D58;display: flex; gap: 8px;" href="">Read more 
+    <img style=" font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;" src="assets/Vectorblack.svg" alt="">
+    </a>  
+    </div>
+  </div>
+  <div>
+    <img style="width: 550px; height: 289px; border-radius:20px; border: 0; object-fit: cover;" src="assets/mistymorning.jpg" alt="">
+    <p class="open-sans" style="width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px;  ">Crop Surveillance</p>
+    <p class="open-sans" style="color: #636363; width: 550px; height: 50px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;">Monitor crop health in real-time with smart tools that detect <br>
+       issues early and protect your yield.</p>
+        <div style="display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 40px; letter-spacing: -0.02em; text-align: center; ">
+    <a class="sansation-bold" style="color: #3F7D58;display: flex; gap: 8px;" href="">Read more 
+    <img style=" font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;" src="assets/Vectorblack.svg" alt="">
+    </a>  
+    </div>
+  </div>
+  <div>
+    <img style="width: 345px; height: 455px; border-radius:20px; border: 0; object-fit: cover;" src="assets/labgrown.jpg" alt="">
+    <p class="open-sans" style="width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px;  ">Automated Farming</p>
+    <p class="open-sans" style="color: #636363; width: 345px; height: 81px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;">Streamline your farm operations with <br>
+       smart automation for faster, easier,  <br>
+        and more efficient growth.</p>
+        <div style="display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 35px; letter-spacing: -0.02em; text-align: center; ">
+    <a class="sansation-bold" style="color: #3F7D58;display: flex; gap: 8px;" href="">Read more 
+    <img style=" font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;" src="assets/Vectorblack.svg" alt="">
+    </a>  
+    </div>
+  </div>
+</div>
+<div style="width: 1280px; display: grid;  grid-template-columns: repeat(2, 1fr); height: 706px; position: relative; top: 1200px; left: 50px; background-color: #F2F2F2; border: 0; border-radius: 20px;">
+  <div style="grid-column: span 1;">
+    <p class="sansation-regular" style="width: 306px; color: #121212; height: 47px; position: relative; top: 40px; left: 32px; font-size: 42px; line-height: 100%; letter-spacing:-0.03em ;">We’d love to help</p>
+    <p class="open-sans" style="width: 503px; height: 54px; position: relative; top: 70px; left: 32px; color: #636363; font-size: 20px; line-height: 100%; letter-spacing: -0.03em;">Streamline your farm operations with smart automation <br>
+       for faster, easier, and more efficient growth.</p>
+       <div style="display: flex; position: relative; left: -17px; justify-content: center; gap: 20px;">
+    <div class="open-sans" style=" position: relative; top: 120px ; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
+      <p style="padding-bottom: 15px;">First Name</p>
+      <input style="width: 263px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    </div>
+    <div class="open-sans" style=" position: relative; top: 120px ; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
+      <p style="padding-bottom: 15px;">Last Name</p>
+      <input style="width: 263px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    </div>
+       </div>
+    <div class="open-sans" style=" position: relative; top: 120px ; padding-top: 40px; left: 32px; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
+      <p style="padding-bottom: 15px;">Email</p>
+      <input style="width: 543px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    </div>
+    <div class="open-sans" style=" position: relative; top: 120px ; padding-top: 40px; left: 32px; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
+      <p style="padding-bottom: 15px;">Message</p>
+      <input style="width: 543px; height: 122px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    </div>
+    <button class="send-btn">Send</button>
+      
+  </div>
+  <div><img style="width: 640px; height: 706px; border: 0; border-radius: 20px; object-fit: cover;" src="assets/waterfall.jpg" alt=""></div>
+</div>
+<div style="width:100em ; height:541 px;">
+
+</div>
+
+<div style="position:relative; top: 1300px; height: 500px; width: 100em; display: flex; overflow: hidden; background-color: #121212;">
+  <div >
+      <div style="position: relative; top: 48px; left: 80px;">
+        <img src="assets/logo.svg" alt="">
+        <img src="assets/Frame.svg" alt="">
+      </div>
+      <div class="open-sans" style="width: 334; position: relative; top: 120px; left: 80px; color: #A3A3A3; font-size:20px ; line-height: 120%; letter-spacing: -0.03em;">Monitor crop health in real-time with <br>
+        smart tools that detect issues early <br>
+          and protect your yield.</div>
+
+      <div style="position: relative; top: 200px; left: 80px; display: flex; gap: 20px;">
+        <img src="assets/insta.svg" alt="">
+        <img src="assets/x.svg" alt="">
+        <img src="assets/link.svg" alt="">
+        <img src="assets/fb.svg" alt="">
+        
+
+      </div>
+  </div>
+  <div style="display: flex; justify-content: space-between; gap: 90px;">
+  <div style="position: relative; top: 48px; left: 295px; ">
+    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">company</p>
+    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Features</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Pricing</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">About us</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Product</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Contact</p>
+  </div>
+  <div style="position: relative; top: 48px; left: 295px; ">
+    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">resource</p>
+    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Blog</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Customer Stories</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Info</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Privacy Policy</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">payments</p>
+  </div>
+  <div style="position: relative; top: 48px; left: 295px; ">
+    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">career</p>
+    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Jobs</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Hiring</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">News</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Tips & Tricks</p>
+  </div>
+  <div style="position: relative; top: 48px; left: 295px; ">
+    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">help</p>
+    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">FAQ</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Help Center</p>
+    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Support </p>
+  </div>
+  </div>
+  <p class="sansation-bold" style=" position:absolute; left: 20px; top: 380px; object-fit: cover; font-size: 193px; color: #FFFFFF; opacity: 20%; line-height: 100%; text-align: center; letter-spacing: -0.03em;">REEP TO GROW</p>
+</div>
+</body>
+</html>
