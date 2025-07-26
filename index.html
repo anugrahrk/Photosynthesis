@@ -1,6 +1,9 @@
 <html>
     <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <title>Photosynthesis</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
@@ -13,7 +16,6 @@
           * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
             
                                 .montserrat {
@@ -89,14 +91,15 @@
           height: 52px;
           width: 147px;
           position: relative;
-          top: 256px;
-          left: 647px;
+          margin: 24px auto 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items:center ;
           border-radius: 20px;
           padding-top: 16px;
           padding-left: 20px;
           padding-bottom: 16px;
           padding-right: 20px;
-          gap: 10px;
           background-color: #262A2D;
           color: white;
           border: 0;
@@ -143,175 +146,906 @@
                       background-color: #3F7D58;
 
         }
+        .wrapper {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.header{
+display: flex;
+ justify-content: space-evenly;
+ position: relative;
+   width: 100%;
+   margin: 40px auto 0 auto;
+   padding: 0 10px;
+}
+.title{
+width: 183.13px;
+ height: 28.27px;
+  padding-bottom: 3px ;
+}
+.nav-bar{
+   border-radius: 24px;
+    font-size: 16px; 
+    width: 498px;  
+    height: auto; 
+    background-color: #262A2D; 
+    display: flex ; 
+    justify-content: space-between; 
+    padding-top: 1px; color: white;
+}
+.nav-bar-button{
+  width: 89px; 
+  height: 38px; 
+  border-radius: 24px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+  transition: background-color 0.3s ease, color 0.3s ease, "
+}
+.login{
+  border: 0px; 
+  background:none; 
+  width: 66px; 
+  height: 38px; 
+  font-size: 16px
+}
+.online-status{
+  margin: 0 auto;
+   width: 221px;
+    position: relative;
+     margin-top: 80px;  
+     height: 24px; 
+     border: 0; 
+     border-radius: 24px; 
+     background-color: #EEEEEE; 
+     display: flex ; 
+     justify-content: center; 
+     align-items: center; 
+     gap: 16px; 
+     padding-left: 24px; 
+     padding-right: 24px; 
+     padding-top: 4px; 
+     padding-bottom: 4px;
+}
+.green-bubble{
+  width: 13px; 
+  height: 13px; 
+  background-color: #3F7D58; 
+  border-radius: 50%;
+}
+.online-status-text{
+  font-size: 14px;
+}
+.heading1{
+  display: flex; 
+  justify-content: space-between; 
+}
+.heading-text{
+  position: relative; 
+  letter-spacing:-0.03em;  
+  margin: 24px  auto 0 auto; 
+  position: relative ; 
+  justify-content: center; 
+  text-align: center;  
+  width: 913px; 
+  height: 166px; 
+  font-size: 74px;
+}
+.heading3{
+  width: 417px; 
+  height: 54px; 
+  position: relative;  
+  margin: 24px auto 0 auto; 
+  font-size:20px ; 
+  text-align: center; 
+  color: #636363;
+}
+.Get-started p{
+  font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;
+}
+.Get-started img{
+height: 13.333333969116211px; position: relative; top: -1px; width: 18.33315658569336px; margin-left: 10px;
+}
+.hero{
+  width: 100%;
+  
+  margin: 50px 0 0 0; 
+  overflow: hidden;
+}
+.hero img{
+  width: 100%;
+  height: 542px;
+  display: block;
+  object-fit: cover;
+}
+.about-section{
+position: relative;  
+letter-spacing: -0.03em; 
+font-size: 20px; 
+margin:120px auto 0 auto; 
+display: flex; 
+justify-content: space-between; 
+}
+.about-section-year{
+  width: 44px; 
+  height: 27px;
+  position: relative;
+  margin-left: 50px;
+}
+.about-section-text{
+  width:630px ; height:135px ; position: relative;  color: #636363;
+}
+.about-section-text span{
+  color: #3F7D58;
+}
+.card-container{
+  width: 100vw;
+   height: auto;
+    position: relative; 
+    margin: 130px auto 0 auto;  
+    display: flex; 
+    gap:20px;
+}
+.card1{
+  position: relative; 
+  width:250px ; 
+  height: 580px ; 
+  margin: 0 auto;
+}
+.card1-img{
+width: 380px; 
+height:480px ; 
+position: relative; 
+left: -128px; 
+border-radius: 20px; 
+object-fit: cover; 
+}
+.card1-bottom{
+  padding-top: 20px;
+}
+.card1 p{
+  display: flex; 
+  justify-content: end; 
+  font-size: 20px; 
+  letter-spacing:-0.03em ; 
+  width: 122px; 
+  position: relative; 
+  margin-left: 125px; 
+  height: 27px; color:#636363;
+}
+.card1-arrow{
+  display: flex; 
+  justify-content: center; 
+  position: relative ; 
+  margin-left: 20px; 
+  gap: 30px; 
+  padding-top: 40px;
+}
+.card1-arrow-left{
+  height: 50px; 
+  width: 50px; 
+  border-radius:40px ; 
+  border: 2px solid black; 
+  background-color: white; 
+  color: black; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.card1-arrow-right{
+height: 50px; 
+width: 50px; 
+border-radius:40px ; 
+border: none; 
+background-color: black; 
+color: white;
+display: flex; 
+justify-content: center; 
+align-items: center;
+}
+.card-container2{
+   position: relative; 
+   width:400px; 
+   margin: 10px auto 0 auto; 
+}
+.card2{
+  display: flex; 
+  justify-content: space-between;
+}
+.card2-getstarted{
+  width: 227px; 
+  height: 72px; 
+  font-size: 32px; 
+  letter-spacing: -0.03em;
+}
+.arrow-btn{
+  position: relative; 
+  cursor: pointer;
+  background-color: #3F7D58; 
+  border: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 40px; 
+  width: 50px; 
+  height: 50px;
+}
+.card2-img{
+  width: 380px; 
+  height:480px ; 
+  position: relative; 
+  top: 80px; 
+  border-radius: 20px; 
+  object-fit: cover;
+}
+.card2-text{
+   display: flex; 
+   justify-content: end; 
+   font-size: 20px; 
+   letter-spacing:-0.03em ; 
+   top: 100px;   
+   width: 152px; 
+   position: relative; 
+   left: 225px; 
+   height: 27px; 
+   color:#636363;
+}
+.card-container3{
+  position: relative; 
+  top: 10px ;  
+  width:400px; 
+  margin: 0 auto; 
+}
+.card-container3 img{
+  width: 380px; 
+  height:480px ; 
+  position: relative; 
+  top: -20px; 
+  border-radius: 20px; 
+  object-fit: cover;
+}
+.card-container3 p{
+  display: flex; 
+  justify-content: end; 
+  font-size: 20px; 
+  letter-spacing:-0.03em ; 
+  top: 0px;   
+  width: 190px; 
+  position: relative; 
+  left: 185px; 
+  height: 27px; 
+  color:#636363;
+}
+.card-container4{
+   position: relative;  
+   display: block;  
+   width:400px; 
+   right: 0px; 
+   margin-left: 20px;  
+   margin: 10px 0 0 auto;
+}
+.card-container4 img{
+  width: 380px; 
+  height:480px ; 
+  position: relative;  
+  top: 50px; 
+  border-radius: 20px; 
+  object-fit: cover;
+}
+.card-container4 p{
+display: flex; 
+justify-content: end; 
+font-size: 20px; 
+letter-spacing:-0.03em ; 
+top: 70px;   
+width: 207px; 
+position: relative; 
+left: 100px; 
+height: 27px; 
+color:#636363;
+}
+.section3{
+  height:711px ; position: relative; margin-top: 180px; width: 100vw;
+}
+.section3-img{
+  position: absolute; width:100% ; height:711px ; object-fit: cover;
+}
+.section3 p{
+position: absolute; top: 80px; left: 80px; margin: 0 auto 0 auto; width: 100vw; height: 126px; line-height: 100%; letter-spacing: -0.03em; font-size: 56px; color:white;
+}
+.arrow-btn2{
+  position: absolute; bottom: 80px; right: 150px; margin: 0 auto 0 auto; cursor: pointer; background-color: #3F7D58; border: 0; display: flex; justify-content: center; align-items: center; border-radius: 200px; width: 100px; height: 100px;
+
+}
+.arrow2{
+  width: 40px; height: 40px;
+}
+
+.section4{
+  position: relative; display: flex; justify-content: space-between; margin: 120px auto 0 auto;
+}
+.section4-p1{
+width: 559px; position: relative; left: 50px; height: 126px; font-size:56px; line-height: 100%; letter-spacing: -0.03em;
+}
+.section4-p2{
+  width: 630px;  position: relative; left: 0px; height: 180px; font-size:20px; line-height: 30px; letter-spacing: -0.03em; color: #636363;
+}
+.section5{
+  position: relative; left: 0px; margin: 120px auto 0 auto; display: flex; justify-content: space-between; gap: 20px;
+}
+.section5-card1{
+  position: relative; margin: 0 auto;
+}
+.section5-img1{
+  width: 345px; height: 455px; border-radius:20px; border: 0; object-fit: cover;
+}
+.section5-title1{
+  width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px; 
+}
+.section5-desc{
+  color: #636363; width: 345px; height: 81px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;
+}
+.section5-readme{
+  display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 35px; letter-spacing: -0.02em; text-align: center;
+}
+.section5-readme a{
+color: #3F7D58;display: flex; gap: 8px;
+}
+.section5-readme img{
+font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;
+}
+.section5-img2{
+  width: 550px; height: 289px; border-radius:20px; border: 0; object-fit: cover;
+}
+.section5-desc2{
+  color: #636363; width: 550px; height: 50px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;
+}
+.message-container{
+  width: 1280px; display: grid;  grid-template-columns: repeat(2, 1fr); height: 706px; position: relative;  left: 0px; margin: 120px auto 0 auto;  background-color: #F2F2F2; border: 0; border-radius: 20px;
+}
+.box1{
+grid-column: span 1;
+}
+.box1-h1{
+  width: 306px; color: #121212; height: 47px; position: relative; top: 40px; left: 32px; font-size: 42px; line-height: 100%; letter-spacing:-0.03em ;
+}
+.box1-h2{
+  width: 503px; height: 54px; position: relative; top: 70px; left: 32px; color: #636363; font-size: 20px; line-height: 140%; letter-spacing: -0.03em;
+}
+.box1-inputs{
+display: flex; position: relative; left: -17px; justify-content: center; gap: 20px;
+}
+.box1-fn{
+  position: relative; top: 120px ; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;
+}
+.box1-fn-text{
+  padding-bottom: 15px;
+}
+.box1-fn-box{
+  width: 263px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;
+}
+.box1-email{
+   position: relative; top: 120px ; padding-top: 40px; left: 32px; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;
+}
+.box1-fn-box1{
+  width: 543px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;
+}
+.box1-fn-box2{
+  width: 543px; height: 122px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;
+}
+.box2 img{
+  width: 640px; height: 706px; border: 0; border-radius: 20px; object-fit: cover;
+}
+.footer{
+  position:relative; margin: 120px auto 0 auto; height: 500px; width: 100vw; display: flex;  justify-content: center; overflow: hidden; background-color: #121212;
+}
+.footer-logo{
+  position: relative; top: 48px; left: 80px;
+}
+.footer-desc{
+  width: 334; position: relative; top: 120px; left: 80px; color: #A3A3A3; font-size:20px ; line-height: 1oovw; letter-spacing: -0.03em;
+}
+.footer-socials{
+  position: relative; top: 200px; left: 80px; display: flex; gap: 20px;
+}
+.footer-links{
+  display: flex; justify-content: space-between; gap: 90px; margin: 0 0 0 auto ; position: relative ; right: 80px;
+}
+.link-section1{
+  position: relative; top: 48px; 
+}
+
+.link-h1{
+  font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;
+}
+.link-h3{
+padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;
+}
+.link-h2{
+  padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;
+}
+.footer-text{
+  position:absolute; width: 100%; margin: 380px auto 0 auto;  object-fit: cover; display: flex; justify-content: center; align-items: center; font-size: 193px; color: #FFFFFF; opacity: 20%; line-height: 100%; letter-spacing: -0.03em;
+}
+@media (max-width: 800px) {
+  .nav-bar{
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+
+  }
+  .header{
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .right-header{
+    padding-bottom: 30px;
+  }
+  .about-section{
+    order: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: auto;
+    display: flex; 
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  margin: 60px auto 60px auto;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+  }
+  .about-section-year{
+    margin: 0 auto 0 auto;
+  }
+  .card-container{
+    order: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 10px;
+    height: auto;
+  }
+  .card1-img{
+width: 380px; 
+height:480px ; 
+position: relative;
+
+margin: 0 auto 0 35px;
+border-radius: 20px; 
+object-fit: cover; 
+}
+.card1-arrow{
+  display: none;
+}
+.card2{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+}
+.card-container{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+}
+
+.card2-img{
+  width: 380px; 
+  height:480px ; 
+  position: relative; 
+  left: -20px;
+  margin: 0 auto 0 auto;
+
+  border-radius: 20px; 
+  object-fit: cover;
+}
+.card-container3{
+  left: -20px;
+  margin:130px auto 0 auto;
+
+}
+.card2-text{
+  left: 0px;
+  margin: 0 auto 0 100px;
+}
+.card-container3 p{
+  left:0;
+  margin: 0 auto 0 100px;
+}
+.card1-bottom p{
+  left: -90px;
+}
+.card-container4{
+  left: -10px;
+}
+.section3 p{
+  left: 0px;
+}
+.section4{
+  order: 1;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+.section4-p2{
+  margin: 130px auto 0 auto;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.about-section-year{
+  left: -20px;
+
+}
+
+.about-section-text{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+
+
+}
+.section5{
+  order: 1;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 30px;
+}
+
+.section5-card2{
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  object-fit: contain;
+
+}
+.section5-img2{
+  width: 100%;
+}
+.section5-desc2-md{
+  color: #636363; width: 345px; height: 81px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;
+
+  
+}
+.message-container{
+  grid-template-columns: repeat(1, 1fr);
+  width: 85%;
+  order: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto 0 auto;
+  height: 800px;
+  padding-left: 80px;
+}
+.send-btn{
+
+  margin:0 auto 0 70px;
+}
+.box1-inputs{
+  order: 1;
+  flex-wrap: wrap;
+  left: -50px;
+  margin: 20px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+}
+.box1-fn-box{
+  width: 410px;
+}
+.box1-email{
+  margin-top: -15px;
+}
+.box2{
+  display: none;
+}
+.box1-fn-box1{
+  width: 70%;
+}
+.box1-fn-box2{
+  width: 70%;
+}
+.send-btn{
+  width: 50%;
+}
+.box1-h2{
+  width: 100%;
+}
+.footer{
+  order: 1;
+  flex-wrap: wrap;
+  padding: 10 px;
+  height: auto;
+  width:100% ;
+}
+.footer-links{
+  order:2 ;
+  flex-wrap: wrap;
+  margin-left:60px;
+  padding:10px;
+  margin-top: 200px;
+  height: auto;
+  margin-bottom:90px;
+
+}
+.link-section1{
+  margin-left: 50px;
+   width: 16%;
+
+}
+.footer-text{
+
+ font-size:90px;
+ bottom:-35px;
+}
+.footer-desc{
+  width:90%;
+}
+.footer-session1{
+  position: relative;
+  left:-50px ;
+   width: 100%;
+}
+.section4-p1{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 10px;
+}
+
+}
+
+@media (max-width:670px) {
+  .heading3{
+    margin-top: 100px;
+  }
+  .footer-text{
+ font-size:75px;
+ bottom:-25px;
+}
+  
+}
+@media (max-width: 530px) {
+  .heading3{
+    margin-top: 180px;
+  }
+.footer-text{
+ font-size:50px;
+ bottom:-18px;
+}
+
+}
 
     </style>
     </head>
     
     <body>
-        <div style="display: flex; justify-content: space-evenly; position: relative; top: 40px; left: 60.69px;">
-            <h3 style="width: 183.13px; height: 28.27px; padding-bottom: 3px ;"><img src="./assets/Frame.svg" alt=""></h3>
-            <div class="sansation-regular"  style=" border-radius: 24px; font-size: 16px; width: 498px;  height: 40px; background-color: #262A2D; display: flex ; justify-content: space-between; padding-top: 1px; color: white;" >
-                <span style="width: 65px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;   background-color: white; color: black;">Home</span>
-                <span class="button" style="width: 89px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;  transition: background-color 0.3s ease, color 0.3s ease, ">About Us</span>
-                <span class="button"  style="width: 81px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;  transition: background-color 0.3s ease, color 0.3s ease, ">Reviews</span>
-                <span class="button" style="width: 85px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center;  transition: background-color 0.3s ease, color 0.3s ease, ">Products</span>
-                <span class="button" style="width: 53px; height: 38px; border-radius: 24px; display: flex; justify-content: center; align-items: center; padding-right: 10px; transition: background-color 0.3s ease, color 0.3s ease, ">Blog</span>
+      <div class="wrapper"> 
+        <div class="header">
+            <h3 class="title"><img src="./assets/Frame.svg" alt=""></h3>
+            <div class="sansation-regular nav-bar" >
+                <span class="button nav-bar-button">Home</span>
+                <span class="button nav-bar-button" >About Us</span>
+                <span class="button nav-bar-button"  >Reviews</span>
+                <span class="button nav-bar-button" >Products</span>
+                <span class="button nav-bar-button" >Blog</span>
 
             </div>
-            <div class="sansation-regular">
-                <button class="login" style="border: 0px; background:none; width: 66px; height: 38px; font-size: 16px" >Log in</button>
+            <div class="sansation-regular right-header ">
+                <button class="login"  >Log in</button>
                 <button class="signup" >Sign up Free</button>
             </div>
         </div>
-          <div style="width: 221px; position: relative; top: 160px; left: 609.5px; height: 24px; border: 0; border-radius: 24px; background-color: #EEEEEE; display: flex ; justify-content: space-evenly; align-items: center; gap: 16px; padding-left: 24px; padding-right: 24px; padding-top: 4px; padding-bottom: 4px;"> <div style="width: 13px; height: 13px; background-color: #3F7D58; border-radius: 50%;"></div> <div class="sansation-regular" style="font-size: 14px;">Top Agro Researcher’s</div></div>
-        <div style=" display: flex; justify-content: space-between; ">
-          <div class="sansation-bold" style="position: relative; letter-spacing:-0.03em;  top: 208px; left: 264px; position: relative ; justify-content: center; text-align: center;  width: 913px; height: 166px; font-size: 74px;">
+          <div class="online-status"> 
+            <div class="green-bubble"></div> 
+            <div class="sansation-regular online-status-text">Top Agro Researcher’s</div>
+          </div>
+        <div class="heading1">
+          <div class="sansation-bold heading-text" >
           Cultivating Next-Gen Growth in Agriculture
           </div>
         </div>
-            <p class="open-sans" style="width: 417px; height: 54px; position: relative; top: 230px; left: 514px; font-size:20px ; text-align: center; color: #636363;">Empowering farmers with smarter tools, bigger yields, and greener solutions</p>
-            <button class="Get-started">Get Started <img class="arrow" src="assets/Vector.svg" alt=""></button>
-      <img class="" style="position: relative; top: 300px; display: block;  height: 542px;
-      width: 100vw; object-fit: cover;" src="assets/hero.png" alt="">
-<div class="open-sans" style="position: relative; letter-spacing: -0.03em; font-size: 20px; top: 400px; display: flex; ">
-  <p style="width: 44px; height: 27px; position: relative; left: 80px;">2025</p>
-  <p style="width:630px ; height:135px ; position: relative; left:650px ; color: #636363;">At <span style="color: #3F7D58;">BioSynthesis,</span> we’re growing a greener, smarter future for <br>
+            <p class="open-sans heading3" >Empowering farmers with smarter tools, bigger yields, and greener solutions</p>
+            <button class="Get-started">
+              <p class="sansation-regular" style="">Get Started </p>
+              <img style="" src="assets/Vector.svg" alt="">
+            </button>
+            <div class="hero" style="">
+          <img  style="" src="assets/hero.png" alt="">
+            </div>
+            <div class="open-sans about-section" style="">
+  <p class="about-section-year" style="">2025</p>
+  <p class="about-section-text" style="">At 
+    <span style="">BioSynthesis,</span> we’re growing a greener, smarter future for <br>
      agriculture. With innovative tools and sustainable solutions, we help <br>
       farmers boost yields, cut waste, and protect the planet. Together, <br>
        we’re cultivating healthier crops, stronger communities, and a brighter <br>
-        tomorrow.</p>
+        tomorrow.</p> 
 </div> 
-<div style="width: 100em; height: auto; position: relative; top:580px ; display: flex;">
-          <div style=" position: relative; width:250px ; height: 580px ;">
-            <img style="width: 380px; height:480px ; position: relative; left: -128px; border-radius: 20px; object-fit: cover; " src="assets/left.jpg" alt=""></img>
-            <div style="padding-top: 20px;">
-                <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; width: 122px; position: relative; left: 125px; height: 27px; color:#636363;">Organic Farm</p>
-                <div style="display: flex; justify-content: center; position: relative ; left: 20px; gap: 30px; padding-top: 40px;">
-                  <div style="height: 50px; width: 50px; border-radius:40px ; border: 2px solid black; background-color: white; color: black; display: flex; justify-content: center; align-items: center;"><img src="assets/lessthan.png" alt=""></div>
-                  <div style="height: 50px; width: 50px; border-radius:40px ; border: none; background-color: black; color: white; display: flex; justify-content: center; align-items: center;"><img src="assets/greaterthan.png" alt=""></div>
+<div class="card-container" style="">
+          <div class="card1" style=" ">
+            <img class="card1-img" style="" src="assets/left.jpg" alt=""></img>
+            <div class="card1-bottom" style="">
+                <p class="open-sans" style=" ">Organic Farm</p>
+                <div class="card1-arrow"  style="">
+                  <div class="card1-arrow-left" style="">
+                    <img src="assets/lessthan.png" alt="">
+                  </div>
+                  <div class="card1-arrow-right" style="">
+                    <img src="assets/greaterthan.png" alt="">
+                  </div>
                 </div>
             </div>
           </div>
-          <div style=" position: relative; top: 10px ; left: 30px; width:400px ; ">
-              <div style="display: flex; justify-content: space-between;">
-                      <p class="sansation-regular" style="width: 227px; height: 72px; font-size: 32px; letter-spacing: -0.03em;">Get <br> Started 
+          <div class="card-container2">
+              <div class="card2" style="">
+                      <p class="sansation-regular card2-getstarted" style="">Get <br> Started 
                         Now</p>
-                      <div class="arrow-btn" style="position: relative; cursor: pointer; left: -20px; background-color: #3F7D58; border: 0; display: flex; justify-content: center; align-items: center; border-radius: 40px; width: 50px; height: 50px;"><img class="arrow" src="assets/NW.svg" alt=""></div>
+                      <div class="arrow-btn" style=""><img class="arrow" src="assets/NW.svg" alt=""></div>
               </div>
-              <img src="assets/soil.jpg" style="width: 380px; height:480px ; position: relative; top: 80px; border-radius: 20px; object-fit: cover;" alt="">
-              <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; top: 100px;   width: 152px; position: relative; left: 225px; height: 27px; color:#636363;">Organic Fertilizer
+              <img class="card2-img" src="assets/soil.jpg" style="" alt="">
+              <p class="open-sans card2-text" style=" ">Organic Fertilizer
 
               </p>
           </div>
-          <div style=" position: relative; top: 10px ; left: 30px; width:400px ; ">
-            <img src="assets/hillplanataion.jpg" style="width: 380px; height:480px ; position: relative; top: -20px; border-radius: 20px; object-fit: cover;" alt="">
-            <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; top: 0px;   width: 190px; position: relative; left: 185px; height: 27px; color:#636363;">Technology Irrigation
+          <div class="card-container3" style="  ">
+            <img  src="assets/hillplanataion.jpg" style="" alt="">
+            <p class="open-sans" style="">Technology Irrigation
 
           </div>
-          <div style=" position: relative; top: 10px ; left: 30px; width:400px ; ">
-            <img src="assets/agriculture.jpg" style="width: 380px; height:480px ; position: relative; top: 50px; border-radius: 20px; object-fit: cover;" alt="">
-            <p class="open-sans" style="display: flex; justify-content: end; font-size: 20px; letter-spacing:-0.03em ; top: 70px;   width: 207px; position: relative; left: 100px; height: 27px; color:#636363;">Agricultural Monitoring
+          <div class="card-container4" style=" ">
+            <img src="assets/agriculture.jpg"  style="" alt="">
+            <p class="open-sans" style="">Agricultural Monitoring
 
           </div>
 </div>
 
-<div style="height:711px ; position: relative; top: 820px;">
-  <img src="assets/misty.jpg" style="position: absolute; width:100em ; height:711px ; object-fit: cover;" alt="">
-  <p class="sansation-regular" style="position: relative; top: 80px; left: 80px; width: 545px; height: 126px; line-height: 100%; letter-spacing: -0.03em; font-size: 56px; color:white;">Transform Your Farm. <br>
+<div class="section3" style="">
+  <img class="section3-img" src="assets/misty.jpg" style="" alt="">
+  <p class="sansation-regular" style="">Transform Your Farm. <br>
      Empower Your Future.</p>
-  <div class="arrow-btn" style="position: absolute; bottom: 80px; right: 80px; cursor: pointer; background-color: #3F7D58; border: 0; display: flex; justify-content: center; align-items: center; border-radius: 200px; width: 100px; height: 100px;"><img class="arrow" style="width: 40px; height: 40px;" src="assets/NW.svg" alt=""></div>
+  <div class="arrow-btn arrow-btn2" style=""><img class="arrow arrow2" style="" src="assets/NW.svg" alt=""></div>
 
 </div>
-<div style="position: relative; top: 950px; display: flex; justify-content: center;">
-  <p class="sansation-regular" style="width: 559px; position: relative; left: -30px; height: 126px; font-size:56px; line-height: 100%; letter-spacing: -0.03em;">The Green Growth Hub: <br>
+<div class="section4" style="">
+  <p class="sansation-regular section4-p1" style="">The Green Growth Hub: <br>
      Innovation & Earthwise</p>
-  <p class="open-sans" style="width: 630px;  position: relative; left: 50px; height: 180px; font-size:20px; line-height: 30px; letter-spacing: -0.03em; color: #636363;">Insights, tips, and stories from the world of sustainable farming and <br>
+  <p class="open-sans section4-p2" style="">Insights, tips, and stories from the world of sustainable farming and <br>
      innovative agriculture — offering expert advice, real-world success <br>
       stories, and the latest trends to help farmers embrace smarter, eco- <br>
       friendly practices. From cutting-edge technology to time-tested <br>
        solutions, we’re here to inspire and guide you on the journey toward a <br>
         more sustainable, productive future.</p>
 </div>
-<div style="position: relative; top: 1070px; display: flex; gap: 20px; left: 65px;">
-  <div>
-    <img style="width: 345px; height: 455px; border-radius:20px; border: 0; object-fit: cover;" src="assets/wateringcrop.jpg" alt="">
-    <p class="open-sans" style="width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px;  ">Farming Precision</p>
-    <p class="open-sans" style="color: #636363; width: 345px; height: 81px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;">Optimize your fields, reduce waste, <br>
+<div class="section5" style=" ">
+  <div class="section5-card1" style="">
+    <img class="section5-img1" style="" src="assets/wateringcrop.jpg" alt="">
+    <p class="open-sans section5-title1" style=" ">Farming Precision</p>
+    <p class="open-sans section5-desc" style="">Optimize your fields, reduce waste, <br>
        and boost yields with smart, precise <br>
         farming solutions.</p>
-        <div style="display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 35px; letter-spacing: -0.02em; text-align: center; ">
-    <a class="sansation-bold" style="color: #3F7D58;display: flex; gap: 8px;" href="">Read more 
-    <img style=" font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;" src="assets/Vectorblack.svg" alt="">
+        <div class="section5-readme" style=" ">
+    <a class="sansation-bold" style="" href="">Read more 
+    <img style="" src="assets/Vectorblack.svg" alt="">
     </a>  
     </div>
   </div>
-  <div>
-    <img style="width: 550px; height: 289px; border-radius:20px; border: 0; object-fit: cover;" src="assets/mistymorning.jpg" alt="">
-    <p class="open-sans" style="width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px;  ">Crop Surveillance</p>
-    <p class="open-sans" style="color: #636363; width: 550px; height: 50px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;">Monitor crop health in real-time with smart tools that detect <br>
+    <div class="section5-card1 section5-card2">
+
+    <img class="section5-img2" src="assets/mistymorning.jpg" alt="">
+    <p class="open-sans section5-title1" >Crop Surveillance</p>
+    <p class="open-sans section5-desc2 section5-desc2-md" style="">Monitor crop health in real-time with smart tools that detect <br>
        issues early and protect your yield.</p>
-        <div style="display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 40px; letter-spacing: -0.02em; text-align: center; ">
-    <a class="sansation-bold" style="color: #3F7D58;display: flex; gap: 8px;" href="">Read more 
-    <img style=" font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;" src="assets/Vectorblack.svg" alt="">
+        <div class="section5-readme">
+    <a class="sansation-bold"  href="">Read more 
+    <img  src="assets/Vectorblack.svg" alt="">
     </a>  
     </div>
   </div>
-  <div>
-    <img style="width: 345px; height: 455px; border-radius:20px; border: 0; object-fit: cover;" src="assets/labgrown.jpg" alt="">
-    <p class="open-sans" style="width: 345; height: 33; line-height: 100%; letter-spacing: -0.03em; font-size: 24px; color: #121212; padding-top: 20px;  ">Automated Farming</p>
-    <p class="open-sans" style="color: #636363; width: 345px; height: 81px; font-size: 20px; line-height: 130%; letter-spacing: -0.03em; padding-top: 25px;">Streamline your farm operations with <br>
+      <div class="section5-card1">
+
+    <img class="section5-img1" src="assets/labgrown.jpg" alt="">
+    <p class="open-sans section5-title1" >Automated Farming</p>
+    <p class="open-sans section5-desc" >Streamline your farm operations with <br>
        smart automation for faster, easier,  <br>
         and more efficient growth.</p>
-        <div style="display: flex; gap:px;  height: 20px; line-height: 100%; padding-top: 35px; letter-spacing: -0.02em; text-align: center; ">
-    <a class="sansation-bold" style="color: #3F7D58;display: flex; gap: 8px;" href="">Read more 
-    <img style=" font-size: 18px; height: 13.333331267039057px; width: 18.333153585603554px; margin-top: 3px;" src="assets/Vectorblack.svg" alt="">
+        <div class="section5-readme">
+    <a class="sansation-bold"  href="">Read more 
+    <img src="assets/Vectorblack.svg" alt="">
     </a>  
     </div>
   </div>
 </div>
-<div style="width: 1280px; display: grid;  grid-template-columns: repeat(2, 1fr); height: 706px; position: relative; top: 1200px; left: 50px; background-color: #F2F2F2; border: 0; border-radius: 20px;">
-  <div style="grid-column: span 1;">
-    <p class="sansation-regular" style="width: 306px; color: #121212; height: 47px; position: relative; top: 40px; left: 32px; font-size: 42px; line-height: 100%; letter-spacing:-0.03em ;">We’d love to help</p>
-    <p class="open-sans" style="width: 503px; height: 54px; position: relative; top: 70px; left: 32px; color: #636363; font-size: 20px; line-height: 100%; letter-spacing: -0.03em;">Streamline your farm operations with smart automation <br>
+<div class="message-container">
+  <div class="box1" style="">
+    <p class="sansation-regular box1-h1" style="">We’d love to help</p>
+    <p class="open-sans box1-h2" style="">Streamline your farm operations with smart automation <br>
        for faster, easier, and more efficient growth.</p>
-       <div style="display: flex; position: relative; left: -17px; justify-content: center; gap: 20px;">
-    <div class="open-sans" style=" position: relative; top: 120px ; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
+       <div class="box1-inputs" style="">
+    <div class="open-sans box1-fn" style=" ">
       <p style="padding-bottom: 15px;">First Name</p>
-      <input style="width: 263px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+      <input class="box1-fn-box" type="text" name="" id="">
     </div>
-    <div class="open-sans" style=" position: relative; top: 120px ; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
-      <p style="padding-bottom: 15px;">Last Name</p>
-      <input style="width: 263px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    <div class="open-sans box1-fn" style="">
+      <p class="box1-fn-text" style="">Last Name</p>
+      <input class="box1-fn-box" style="" type="text" name="" id="">
     </div>
        </div>
-    <div class="open-sans" style=" position: relative; top: 120px ; padding-top: 40px; left: 32px; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
-      <p style="padding-bottom: 15px;">Email</p>
-      <input style="width: 543px; height: 42px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    <div class="open-sans box1-email" style="">
+      <p class="box1-fn-text" style="">Email</p>
+      <input class="box1-fn-box1" style="" type="text" name="" id="">
     </div>
-    <div class="open-sans" style=" position: relative; top: 120px ; padding-top: 40px; left: 32px; color: #636363; font-size: 16px; line-height:100% ; letter-spacing:-0.03em ;">
-      <p style="padding-bottom: 15px;">Message</p>
-      <input style="width: 543px; height: 122px; border: 1px solid #9C9C9C; border-radius: 20px; color: #FFFFFF;" type="text" name="" id="">
+    <div class="open-sans box1-email" style=" ">
+      <p class="box1-fn-text" style="">Message</p>
+      <input class="box1-fn-box2" style="" type="text" name="" id="">
     </div>
     <button class="send-btn">Send</button>
       
   </div>
-  <div><img style="width: 640px; height: 706px; border: 0; border-radius: 20px; object-fit: cover;" src="assets/waterfall.jpg" alt=""></div>
-</div>
-<div style="width:100em ; height:541 px;">
-
+  <div class="box2"><img  style="" src="assets/waterfall.jpg" alt=""></div>
 </div>
 
-<div style="position:relative; top: 1300px; height: 500px; width: 100em; display: flex; overflow: hidden; background-color: #121212;">
-  <div >
-      <div style="position: relative; top: 48px; left: 80px;">
+
+<div class="footer" style="">
+  <div class="footer-session1" style="">
+      <div class="footer-logo" style="">
         <img src="assets/logo.svg" alt="">
         <img src="assets/Frame.svg" alt="">
       </div>
-      <div class="open-sans" style="width: 334; position: relative; top: 120px; left: 80px; color: #A3A3A3; font-size:20px ; line-height: 120%; letter-spacing: -0.03em;">Monitor crop health in real-time with <br>
+      <div class="open-sans footer-desc" style="">Monitor crop health in real-time with <br>
         smart tools that detect issues early <br>
           and protect your yield.</div>
 
-      <div style="position: relative; top: 200px; left: 80px; display: flex; gap: 20px;">
+      <div class="footer-socials" style="">
         <img src="assets/insta.svg" alt="">
         <img src="assets/x.svg" alt="">
         <img src="assets/link.svg" alt="">
@@ -320,38 +1054,39 @@
 
       </div>
   </div>
-  <div style="display: flex; justify-content: space-between; gap: 90px;">
-  <div style="position: relative; top: 48px; left: 295px; ">
-    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">company</p>
-    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Features</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Pricing</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">About us</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Product</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Contact</p>
+  <div class="footer-links" style="">
+  <div class="link-section1" style="">
+    <p class="sansation-regular link-h1" style="">company</p>
+    <p class="open-sans link-h2 " style="">Features</p>
+    <p class="open-sans link-h3 " >Pricing</p>
+    <p class="open-sans link-h3 " >About us</p>
+    <p class="open-sans link-h3 " >Product</p>
+    <p class="open-sans link-h3 " >Contact</p>
   </div>
-  <div style="position: relative; top: 48px; left: 295px; ">
-    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">resource</p>
-    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Blog</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Customer Stories</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Info</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Privacy Policy</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">payments</p>
+  <div  class="link-section1">
+    <p class="sansation-regular link-h1" >resource</p>
+    <p class="open-sans link-h2 " >Blog</p>
+    <p class="open-sans link-h3 " >Customer Stories</p>
+    <p class="open-sans link-h3 " >Info</p>
+    <p class="open-sans link-h3 " >Privacy Policy</p>
+    <p class="open-sans link-h3 " >payments</p>
   </div>
-  <div style="position: relative; top: 48px; left: 295px; ">
-    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">career</p>
-    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Jobs</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Hiring</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">News</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Tips & Tricks</p>
+  <div class="link-section1">
+    <p class="sansation-regular link-h1" >career</p>
+    <p class="open-sans link-h2 " >Jobs</p>
+    <p class="open-sans link-h3 " >Hiring</p>
+    <p class="open-sans link-h3 " >News</p>
+    <p class="open-sans link-h3 " >Tips & Tricks</p>
   </div>
-  <div style="position: relative; top: 48px; left: 295px; ">
-    <p class="sansation-regular" style="font-size:18px ; line-height:100% ; letter-spacing:-0.03em ; color: #FFFFFF; text-transform: uppercase;">help</p>
-    <p class="open-sans" style="padding-top: 50px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">FAQ</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Help Center</p>
-    <p class="open-sans" style="padding-top: 30px; color: #A3A3A3; font-size: 16px; line-height: 100%; letter-spacing: -0.03em;">Support </p>
+  <div class="link-section1">
+    <p class="sansation-regular link-h1" >help</p>
+    <p class="open-sans link-h2 " >FAQ</p>
+    <p class="open-sans link-h3 " >Help Center</p>
+    <p class="open-sans link-h3 " >Support </p>
   </div>
   </div>
-  <p class="sansation-bold" style=" position:absolute; left: 20px; top: 380px; object-fit: cover; font-size: 193px; color: #FFFFFF; opacity: 20%; line-height: 100%; text-align: center; letter-spacing: -0.03em;">REEP TO GROW</p>
+  <p class="sansation-bold footer-text" style=" ">REEP TO GROW</p>
+</div>
 </div>
 </body>
 </html>
